@@ -1,0 +1,19 @@
+{
+  "title": "¡Hola, aprendiz de IA!",
+  "subtitle": "Suscríbete ahora para recibir sugerencias de IA, prácticas fáciles y desafíos semanales.",
+  "labelName": "Nombre",
+  "placeholderName": "Ingresa tu nombre",
+  "labelEmail": "Correo electrónico",
+  "placeholderEmail": "tú@ejemplo.com",
+  "submit": "Suscribirse",
+  "success": "¡Genial! {name} ha suscrito con éxito con {email}.",
+  "validation": {
+    "requiredName": "El nombre es obligatorio.",
+    "maxLengthName": "El nombre debe tener como máximo 64 caracteres.",
+    "invalidName": "El nombre solo puede incluir letras, espacios, apóstrofes y guiones.",
+    "requiredEmail": "El correo electrónico es obligatorio.",
+    "maxLengthEmail": "El correo electrónico debe tener como máximo 64 caracteres.",
+    "invalidEmail": "Ingresa un correo válido con @ y dominio.",
+    "domainEmail": "El correo debe incluir un dominio válido."
+  }
+}
