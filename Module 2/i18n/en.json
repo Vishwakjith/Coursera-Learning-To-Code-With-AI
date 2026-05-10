@@ -1,0 +1,19 @@
+{
+  "title": "Hey there, AI Learner!",
+  "subtitle": "Subscribe now for AI prompts, easy practice, and weekly challenges.",
+  "labelName": "Name",
+  "placeholderName": "Enter your name",
+  "labelEmail": "Email",
+  "placeholderEmail": "you@example.com",
+  "submit": "Subscribe",
+  "success": "Great news: {name} has successfully subscribed with {email}!",
+  "validation": {
+    "requiredName": "Name is required.",
+    "maxLengthName": "Name must be at most 64 characters.",
+    "invalidName": "Name can include letters, spaces, apostrophes, and hyphens only.",
+    "requiredEmail": "Email is required.",
+    "maxLengthEmail": "Email must be at most 64 characters.",
+    "invalidEmail": "Enter a valid email address with @ and domain.",
+    "domainEmail": "Email must include a valid domain part."
+  }
+}

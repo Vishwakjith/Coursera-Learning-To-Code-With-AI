@@ -1,0 +1,19 @@
+{
+  "title": "Hei der, AI-lærling!",
+  "subtitle": "Abonner nå for AI-forslag, enkel øving og ukentlige utfordringer.",
+  "labelName": "Navn",
+  "placeholderName": "Skriv inn navnet ditt",
+  "labelEmail": "E-post",
+  "placeholderEmail": "deg@eksempel.no",
+  "submit": "Abonner",
+  "success": "Flott nyhet: {name} er nå abonnert med {email}!",
+  "validation": {
+    "requiredName": "Navn er påkrevd.",
+    "maxLengthName": "Navnet kan være maks 64 tegn.",
+    "invalidName": "Navn kan bare inneholde bokstaver, mellomrom, apostrofer og bindestreker.",
+    "requiredEmail": "E-post er påkrevd.",
+    "maxLengthEmail": "E-post kan være maks 64 tegn.",
+    "invalidEmail": "Skriv inn en gyldig e-postadresse med @ og domene.",
+    "domainEmail": "E-post må ha et gyldig domenenavn."
+  }
+}
