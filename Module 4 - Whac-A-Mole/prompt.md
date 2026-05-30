@@ -1,36 +1,40 @@
-# Generate Subscription SignUp Form (HTML, CSS, JS)
+# Generate Whac-A-Mole Game (HTML, CSS, JS)
 
-This project is about creating a basic Subscription Sign-Up Form with a beautiful and mind catching design and nothing more than that.
+## Basic Game Setup
 
-## Generate a Basic Form UI
+I want to build a game similar to Whack-A-Mole using HTML, CSS, and JavaScript.
+The game is called "FaceBomp," where players click on popping-up photos to earn points.
 
-- The form should be center and inside of a popped up box.
-- Let's add any Image with a bit of interesting and funny way.
-- Below that we will add any Title, Subtitle describing the context of the form we are trying to build.
-- There should be input fields such as Name, Email and Subscribe button to submit the form.
-- Validations must be done when the customer enters values in the input fields, such as,
-    1. Name:
-        - Required.
-        - Not more than 64 characters.
-        - No special characters or numbers.
-        - Should allow all language characters.
-        - Other validations that are needed apart from above.
-    2. Email:
-        - Required.
-        - Not more than 64 characters.
-        - There must be "@" in the email id.
-        - There must be domain in the email id.
-        - Other validations that are needed apart from above.
-- For the respective validations, a error message must be shown on the UI so that the customer will be able to rectify it.
-- The button must be enabled only when there is no error in customer entered values.
+Let's start with the HTML only, which should link to CSS and JS files:
 
-## Translation
+- Display the game's title.
+- Add a start button and a score display.
+- Include the HTML to display a timer and an element for displaying a final message when the game ends.
+- Create a game board with 6 "holes" containing an image (photo.png).
 
-- Let's store all the translations in a separate folder called "i18n" and under that we will have all language JSONs.
-- Create a small dropdown in the top right of the form for the language selection.
-- The value in the dropdown must be  based on all the file names present in the "i18n" folder. For now create a en.json, es.json and no.json file.
-- Implement code logic to update the application language dynamically when the specific language is clicked from the dropdown.
+## Styling and Effects
 
-## Light/Dark Theme
+Style the game using a bright blue theme with background gradients
+and complementary shades for the game controls and holes.
 
--
+I want the holes to be circular and the photos to have a popping in/out effect.
+Place the holes on a grid and center each image inside its hole.
+
+## JavaScript-ing to implement Game
+
+Let's work on implementing the following with JavaScript:
+
+- Images should gradually appear and then disappear into their holes one at a time at random intervals. When a player clicks on an image, the player's score should increase by 1.
+- The countdown timer is for 30 seconds. The game starts when the player clicks the "start" button and automatically stops when the timer reaches zero.
+- When the game ends, the final score is displayed, along with a fun, witty message based on the score.
+- Players can restart the game by clicking the "start" button again.
+
+Please add comments to the code to help me understand the logic.
+
+## Style and Usability Update
+
+- Update the necessary code to apply a red border to an image only when clicked.
+- There should be 3 audio files:
+    1. One audio file should play when we Whac.
+    2. One audio file should play when final score is above 9.
+    3. One audio file should play when the game ends.
