@@ -1,0 +1,212 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f9fafb;
+  color: #111827;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+.container {
+  padding: 18px;
+}
+
+h1 {
+  margin: 0 0 6px;
+  font-size: 1.25rem;
+}
+
+.subtitle {
+  margin: 0 0 18px;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+label {
+  font-size: 0.95rem;
+}
+
+select {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 1rem;
+  background: #ffffff;
+}
+
+.primary-button {
+  width: 100%;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.primary-button:hover,
+.primary-button:focus-visible {
+  background: #1d4ed8;
+}
+
+.status {
+  margin-top: 10px;
+  min-height: 18px;
+  color: #047857;
+  font-size: 0.92rem;
+}
+
+.preview-section {
+  margin-top: 16px;
+}
+
+.preview-card {
+  margin-top: 10px;
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+}
+
+.preview-message {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+.preview-label {
+  margin: 0 0 6px;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #6b7280;
+}
+
+.preview-title,
+.preview-url {
+  margin: 0 0 10px;
+  font-size: 0.96rem;
+  color: #111827;
+  word-break: break-word;
+}
+
+.preview-url a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.preview-url a:hover,
+.preview-url a:focus-visible {
+  text-decoration: underline;
+}
+
+.list-section {
+  margin-top: 20px;
+}
+
+.list-section h2 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+}
+
+.empty-message {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.category-group {
+  margin-bottom: 18px;
+  padding: 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #ffffff;
+}
+
+.category-heading {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  color: #111827;
+  letter-spacing: 0.01em;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.item-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 12px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+  display: grid;
+  gap: 10px;
+}
+
+.item-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-button {
+  border: none;
+  background: transparent;
+  color: #ef4444;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 8px;
+  font-family: 'Segoe MDL2 Assets', 'Segoe UI Symbol', sans-serif;
+  font-size: 1rem;
+}
+
+.delete-button:hover,
+.delete-button:focus-visible {
+  background: rgba(239, 68, 68, 0.12);
+}
+
+.delete-icon {
+  display: inline-block;
+  font-family: 'Segoe MDL2 Assets', 'Segoe UI Symbol', sans-serif;
+  font-size: 1rem;
+}
+
+.item-card p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.item-card a {
+  color: #2563eb;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.item-card .category {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
