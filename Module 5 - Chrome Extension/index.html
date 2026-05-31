@@ -26,17 +26,25 @@
     </div>
 
     <button id="saveButton" class="primary-button">Save Item</button>
-    <div id="status" class="status" aria-live="polite"></div>
+    <div id="status" class="status" role="status" aria-live="polite"></div>
+
+    <section class="preview-section">
+      <h2>Current Page Preview</h2>
+      <div id="previewMessage" class="preview-message">Loading current tab preview…</div>
+      <div class="preview-card">
+        <p class="preview-label">Title</p>
+        <p id="previewTitle" class="preview-title"></p>
+        <p class="preview-label">Link</p>
+        <p id="previewUrl" class="preview-url"></p>
+      </div>
+    </section>
 
     <section class="list-section">
       <h2>Saved Items</h2>
       <div id="emptyMessage" class="empty-message">No items saved yet.</div>
-      <ul id="itemList" class="item-list"></ul>
+      <div id="categoryLists" class="category-lists"></div>
     </section>
   </div>
-
-  <div id="debug"></div>
-  <div id="debug-two"></div>
 
   <script src="js/script.js"></script>
 </body>

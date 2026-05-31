@@ -23,3 +23,11 @@ Both the preview and shopping list links should display an item's name by access
 The saved items should display even after closing or refreshing the browser.
 
 Update the manifest file as needed, and add detailed code comments explaining the JavaScript's functionality.
+
+## Managing Items
+
+Allow the user to delete items from the shopping list permanently.
+Each delete button should display a "delete" icon using an icon font.
+
+Finally, display the saved item links as separate lists based on their category.
+Please provide all of the fully updated code with detailed comments.
