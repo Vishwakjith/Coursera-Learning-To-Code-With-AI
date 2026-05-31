@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopping List Saver</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Shopping List</h1>
+    <p class="subtitle">Save the current tab link with a category.</p>
+
+    <div class="form-group">
+      <label for="category">Category</label>
+      <select id="category">
+        <option value="">--Select a category--</option>
+        <option value="Books">Books</option>
+        <option value="Clothes">Clothes</option>
+        <option value="Shoes">Shoes</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Pets">Pets</option>
+        <option value="Health">Health</option>
+      </select>
+    </div>
+
+    <button id="saveButton" class="primary-button">Save Item</button>
+    <div id="status" class="status" aria-live="polite"></div>
+
+    <section class="list-section">
+      <h2>Saved Items</h2>
+      <div id="emptyMessage" class="empty-message">No items saved yet.</div>
+      <ul id="itemList" class="item-list"></ul>
+    </section>
+  </div>
+
+  <div id="debug"></div>
+  <div id="debug-two"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

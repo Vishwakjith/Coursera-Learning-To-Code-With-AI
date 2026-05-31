@@ -1,0 +1,115 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f9fafb;
+  color: #111827;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+.container {
+  padding: 18px;
+}
+
+h1 {
+  margin: 0 0 6px;
+  font-size: 1.25rem;
+}
+
+.subtitle {
+  margin: 0 0 18px;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+label {
+  font-size: 0.95rem;
+}
+
+select {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 1rem;
+  background: #ffffff;
+}
+
+.primary-button {
+  width: 100%;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.primary-button:hover,
+.primary-button:focus-visible {
+  background: #1d4ed8;
+}
+
+.status {
+  margin-top: 10px;
+  min-height: 18px;
+  color: #047857;
+  font-size: 0.92rem;
+}
+
+.list-section {
+  margin-top: 20px;
+}
+
+.list-section h2 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+}
+
+.empty-message {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.item-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 12px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+}
+
+.item-card p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.item-card a {
+  color: #2563eb;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.item-card .category {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
