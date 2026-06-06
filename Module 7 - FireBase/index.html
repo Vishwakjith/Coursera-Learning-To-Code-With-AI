@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Firebase Realtime Database Demo</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Firebase Realtime Database</h1>
+      <p>Send data to Firebase and see the UI update automatically.</p>
+      <div id="status" class="status"></div>
+    </header>
+
+    <section class="card">
+      <form id="message-form">
+        <label>
+          Name
+          <input type="text" id="name" placeholder="Your name" required />
+        </label>
+
+        <label>
+          Message
+          <textarea id="message" placeholder="Write something..." rows="3" required></textarea>
+        </label>
+
+        <button type="submit">Publish to Realtime Database</button>
+        <button type="button" id="delete-all" class="danger-button">Delete All Messages</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Live Messages</h2>
+      <div id="messages" class="messages">
+        <p class="empty">Waiting for messages...</p>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
